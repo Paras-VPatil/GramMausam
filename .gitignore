@@ -1,0 +1,7 @@
+# Ignore large dataset files that should not be committed
+*.SAFE.zip
+*.gpkg
+
+# Keep inventory and documentation files tracked
+!data/dataset_inventory.csv
+!data/DATASET_INVENTORY.md
